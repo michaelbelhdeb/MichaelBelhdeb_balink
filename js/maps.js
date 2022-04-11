@@ -1,0 +1,103 @@
+mapEnglish = new Map([
+    [ "Weather", "Info Weather"],
+    [ "Select", "Select a country"],
+    [ "Sources", "Sources"],
+    [ "Today", "Today"],
+    [ "Tomorrow", "Tomorrow"],
+    [ "Time", "Time"],
+    [ "Sunrise", "Sunrise"],
+    [ "Sunset", "Sunset"],
+    [ "Min", "Min"],
+    [ "Max", "Max"],
+    [ "mph", "mph"],
+    [ "Humidity", "Humidity"],
+    [ "Visibility", "Visibility"],
+    [ "Pressure", "Pressure"],
+    [ "Confidence", "Confidence"],
+    [ "New York", "New York"],
+    [ "Los Angeles", "Los Angeles"],
+    [ "Marseille", "Marseille"],
+    [ "Barcelona", "Barcelona"],
+    [ "Rome", "Rome"],
+    [ "California", "California"],
+    [ "France", "France"],
+    [ "Spain", "Spain"],
+    [ "Italy", "Italy"]
+]);
+
+mapHebrew = new Map([
+    [ "Weather", "מידע מזג אוויר"],
+    [ "Select", "בחר מדינה"],
+    [ "Sources", "מקורות"],
+    [ "Today", "היום"],
+    [ "Tomorrow", "מחר"],
+    [ "Time", "שעה"],
+    [ "Sunrise", "זריחה"],
+    [ "Sunset", "שקיעה"],
+    [ "Min", "מיני"],
+    [ "Max", "מקס"],
+    [ "mph", "mph"],
+    [ "Humidity", "לחות"],
+    [ "Visibility", "ראות"],
+    [ "Pressure", "לחץ"],
+    [ "Confidence", "אמון"],
+    [ "New York", "ניו יורק"],
+    [ "Los Angeles", "לוס אנג'לס"],
+    [ "Marseille", "מרסיי"],
+    [ "Barcelona", "ברצלונה"],
+    [ "Rome", "רומא"],
+    [ "California", "קליפורניה"],
+    [ "France", "צרפת"],
+    [ "Spain", "ספרד"],
+    [ "Italy", "איטליה"]
+]);
+
+mapDaysEn = new Map([
+    [ 0, "Sun"],
+    [ 1, "Mon"],
+    [ 2, "Tue"],
+    [ 3, "Wed"],
+    [ 4, "Thu"],
+    [ 5, "Fri"],
+    [ 6, "Sat"],
+]);
+
+mapDaysHe = new Map([
+    [ 0, "ראשון"],
+    [ 1, "שני"],
+    [ 2, "שלישי"],
+    [ 3, "רביעי"],
+    [ 4, "חמישי"],
+    [ 5, "שישי"],
+    [ 6, "שבת"],
+]);
+
+mapMonthsEn = new Map([
+    [ 0, "Jan"],
+    [ 1, "Feb"],
+    [ 2, "Mar"],
+    [ 3, "Apr"],
+    [ 4, "May"],
+    [ 5, "Jun"],
+    [ 6, "Jul"],
+    [ 7, "Aug"],
+    [ 8, "Sep"],
+    [ 9, "Oct"],
+    [ 10, "Nov"],
+    [ 11, "Dec"],
+]);
+
+mapMonthsHe = new Map([
+    [ 0, "ינ"],
+    [ 1, "פב"],
+    [ 2, "מרץ"],
+    [ 3, "אפר"],
+    [ 4, "מאי"],
+    [ 5, "יונ"],
+    [ 6, "יול"],
+    [ 7, "אוג"],
+    [ 8, "ספ"],
+    [ 9, "אוק"],
+    [ 10, "נוב"],
+    [ 11, "דצ"],
+]);

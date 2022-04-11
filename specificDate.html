@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Info Weather</title>
+</head>
+<body>
+    <div id="container">
+        <div id="title">Info Weather</div>
+
+        <div id="selection">
+            <div>
+                <a href="#" id="language0">English</a> | 
+                <a href="#" id="language1">עברית</a>
+            </div>
+
+            <input type="hidden" id="language" value="0">
+
+            <select name="selCountry" id="selCountry">
+                <option value="0">Select a country</option>
+                <option value="2459115">New York</option>
+                <option value="2442047">Los Angeles</option>
+                <option value="610264">Marseille</option>
+                <option value="753692">Barcelona</option>
+                <option value="721943">Rome</option>
+            </select>           
+        </div>
+        
+        <div id="country-meteo" class="mb1"></div>
+        <div id="sources">
+            <div id="titleSources"></div>
+            <ul id="listSources">
+
+            </ul>
+        </div>
+        
+    </div>
+
+    
+    <footer>
+        <p>© Weather, Inc. 2021. We love weather</p>
+    </footer>
+
+
+    <script type='text/javascript' src="./js/functions.js"></script>
+    <script type='text/javascript' src="./js/appDate.js"></script>
+    <script type='text/javascript' src="./js/maps.js"></script>
+</body>
+
+</html>
